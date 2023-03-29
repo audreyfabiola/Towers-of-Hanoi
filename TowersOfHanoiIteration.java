@@ -27,7 +27,7 @@ public class TowersOfHanoiIteration {
         }
 
         //Show initial arrays
-        System.out.print("-Initial Configuration-");
+        System.out.print("\n-Initial Configuration-");
         printTowers();
 
         int count = 0;
