@@ -2,7 +2,7 @@
 
 ### Problem
 
-The goal is solve a classic puzzle called "Towers of Hanoi" by having to move the three disks from the peg where they have been placed (largest disk on the bottom, smallest disk on the top) to one of the empty pegs, subject to the following constraints:
+The goal is to solve a classic puzzle called "Towers of Hanoi" by having to move the three disks from the peg where they have been placed (largest disk on the bottom, smallest disk on the top) to one of the empty pegs, subject to the following constraints:
 
 - Only the top disk on a peg can be moved to another peg.
 - A larger disk cannot be placed on top of a smaller disk.
