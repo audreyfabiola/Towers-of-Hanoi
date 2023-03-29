@@ -33,7 +33,7 @@ public class TowersOfHanoiIteration {
         int count = 0;
         System.out.print("\n\n-Solution-");
 
-        //checks the time complexity
+        //Checks the time complexity
         double startTime = System.currentTimeMillis();
 
         while(true) {
