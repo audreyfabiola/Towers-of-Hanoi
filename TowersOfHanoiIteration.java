@@ -116,11 +116,11 @@ public class TowersOfHanoiIteration {
         return numInA;
     }
 
-    void moveBetween(int[] A, int[] B) {
-        if (numInA(A) == 0) {
-            decidePegs(B, A);
+    void moveBetween(int[] A1, int[] A2) {
+        if (numInA(A1) == 0) {
+            decidePegs(A2, A1);
         } else {
-            decidePegs(A, B);
+            decidePegs(A1, A2);
         }
     }
 
