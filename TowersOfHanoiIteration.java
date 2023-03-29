@@ -83,7 +83,7 @@ public class TowersOfHanoiIteration {
         System.out.println("\nRun time = " + totalTime + " ms.");
     }
 
-    //Visualization of the towers
+    //Visualization of the disks and pegs
     void printTowers() {
         System.out.println();
 
