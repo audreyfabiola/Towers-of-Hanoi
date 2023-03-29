@@ -20,7 +20,7 @@ This repository, contains the solution for Towers of Hanoi both recursively and 
 
 ### Program Workflow
 
-##### Recursive Method
+##### Recursion Method
 
 ```
 Towers of Hanoi 🗼 - Recursion Method
