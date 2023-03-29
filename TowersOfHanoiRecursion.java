@@ -11,10 +11,10 @@ public class TowersOfHanoiRecursion {
         System.out.print("Enter number of disks: ");
         int nDisks = in.nextInt();
 
-        //checks the time complexity
+        //Checks the time complexity
         double startTime = System.currentTimeMillis();
 
-        //calls the function
+        //Calls the function
         String recursion = hanoiRecursion(nDisks, 'L', 'R', 'M');
         System.out.println("\n-Solution-");
         System.out.println(recursion);
