@@ -9,8 +9,6 @@ public class TowersOfHanoiIteration {
         new TowersOfHanoiIteration();
     }
 
-    int[] A1, A2, A3;
-
     TowersOfHanoiIteration() {
         System.out.println("Towers of Hanoi \uD83D\uDDFC - Iteration Method");
         System.out.print("Enter the number of disks: ");
