@@ -9,6 +9,8 @@ public class TowersOfHanoiIteration {
         new TowersOfHanoiIteration();
     }
 
+    int[] A1, A2, A3;
+
     TowersOfHanoiIteration() {
         System.out.println("Towers of Hanoi \uD83D\uDDFC - Iteration Method");
         System.out.print("Enter the number of disks: ");
@@ -31,7 +33,7 @@ public class TowersOfHanoiIteration {
         int count = 0;
         System.out.print("\n\n-Solution-");
 
-        //Checks the time complexity
+        //checks the time complexity
         double startTime = System.currentTimeMillis();
 
         while(true) {
@@ -81,7 +83,7 @@ public class TowersOfHanoiIteration {
         System.out.println("\nRun time = " + totalTime + " ms.");
     }
 
-    //Visualization of the disks and pegs
+    //Visualization of the towers
     void printTowers() {
         System.out.println();
 
@@ -113,7 +115,7 @@ public class TowersOfHanoiIteration {
         }
         return numInA;
     }
-
+    
     void moveBetween(int[] A1, int[] A2) {
         if (numInA(A1) == 0) {
             decidePegs(A2, A1);
